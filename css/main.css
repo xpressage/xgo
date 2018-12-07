@@ -67,11 +67,28 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #191c1e;
+}
+h2{
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #191c1e;
+
+}
+
+h6{
+
+  font-family: 'Amiri', Amiri;
+  font-size: 22px;
+  font-weight: 400;
+  color: #191c1e;
+
 }
 
 ul {
@@ -1449,19 +1466,23 @@ button:focus {
   margin: 15px 0;
   text-align: center;
   border-radius: 5px;
-  -webkit-transition: background-image 0.3s ease-out;
+ /* -webkit-transition: background-image 0.3s ease-out;
   -moz-transition: background-image 0.3s  ease-out;
   -o-transition: background-image 0.3s  ease-out;
-  transition: background-image 0.3s  ease-out;
+  transition: background-image 0.3s  ease-out;*/
   box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
 }
 
 .pricing-table .icon {
   margin-bottom: 10px;
+  max-width: 300px;
+  max-height: 300px
 }
 
-.pricing-table .icon i {
+.pricing-table .icon img {
   font-size: 42px;
+  max-width: 300px;
+  max-height: 300px
 }
 
 .pricing-table .price {
@@ -2142,7 +2163,8 @@ textarea {
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 20px;
-  position: relative;
+  /*position: relative;*/
+  width: 100%;
 }
 
 footer .footer-Content {
@@ -2151,6 +2173,8 @@ footer .footer-Content {
   background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   padding: 60px 0 0px;
   color: #546E7A;
+    width: 100%;
+
 }
 
 footer .footer-Content h2 {
